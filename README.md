@@ -38,3 +38,10 @@ src/main/java
 │ └── EmployeeService.java
 └── main
 └── EmployeeMain.java
+
+## ⭐ Special Highlights
+
+- Implements audit trail for salary changes
+- Follows layered architecture (Entity → DAO → Service)
+- Business logic separated from database logic
+- Uses JPQL instead of native SQL
