@@ -27,4 +27,14 @@ like audit logging and designation-based salary updates.
 ---
 
 ## 🧱 Project Structure
-
+src/main/java
+├── entities
+│ ├── EmployeeDTO.java
+│ ├── DepartmentDTO.java
+│ └── EmployeeAudit.java
+├── dao
+│ └── EmployeeDAO.java
+├── service
+│ └── EmployeeService.java
+└── main
+└── EmployeeMain.java
